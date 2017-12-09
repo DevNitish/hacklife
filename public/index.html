@@ -1,1 +1,21 @@
-the index file
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edu Life...</title>
+
+        <script data-main="scripts/main" src="scripts/require.js"></script>
+        <script src="scripts/codebase/dhtmlx.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="scripts/codebase/dhtmlx.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+       <script type="text/javascript">
+          requirejs(["main"], function(main) {
+            main.init();
+          });
+        </script>
+    </body>
+</html>

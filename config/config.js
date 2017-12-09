@@ -7,5 +7,5 @@ exports.serverOptions = {
      'auto_reconnect': true,
      'poolSize': 10
  };
-var connectionstring = "mongodb://<dbuser>:<dbpassword>@ds135186.mlab.com:35186/hacklife";
+var connectionstring = "mongodb://admin:admin@ds135186.mlab.com:35186/hacklife";
 exports.mongoconnectionstring = connectionstring;
